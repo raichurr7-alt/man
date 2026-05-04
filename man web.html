@@ -1,0 +1,62 @@
+/* Global Reset and Box-Sizing */
+* {
+    /* This makes padding and border adjustments easier to calculate */
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Removes default browser margins */
+    background-color: #f4f4f9; /* Slightly softer background */
+    color: #333;
+}
+
+/* Styling the Header */
+.site-header {
+    background-color: #2c3e50; /* Darker, more professional blue/grey */
+    color: white;
+    padding: 30px 20px; /* Increased padding */
+    text-align: center;
+}
+
+/* Styling the Main Content Area */
+main {
+    padding: 40px 5%; /* Adds internal spacing and horizontal margins */
+    max-width: 1000px; /* Keeps content from stretching too wide on large screens */
+    margin: 0 auto; /* Centers the main block of content */
+}
+
+/* Styling the Section */
+#welcome-section {
+    background: white;
+    padding: 30px;
+    border-radius: 8px; /* Soft corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle lift/depth effect */
+}
+
+/* Styling the Button (more modern look) */
+#action-button {
+    padding: 12px 25px;
+    background-color: #3498db; /* Bright, actionable blue */
+    color: white;
+    border: none;
+    cursor: pointer; /* Changes mouse cursor to indicate clickable area */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for interactivity */
+#action-button:hover {
+    background-color: #2980b9; 
+}
+
+/* Styling the Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 20px; /* Spacing above the footer */
+}
